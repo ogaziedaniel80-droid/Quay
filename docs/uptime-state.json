@@ -1,13 +1,13 @@
 {
   "targets": {
     "api": {
-      "consecutiveFailures": 8,
+      "consecutiveFailures": 9,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-08-30T23:37:41.782Z",
+      "lastCheckedAt": "2026-08-31T01:35:41.151Z",
       "today": {
-        "date": "2026-08-30",
+        "date": "2026-08-31",
         "up": 0,
-        "down": 7
+        "down": 1
       },
       "history": [
         {
@@ -174,6 +174,11 @@
           "date": "2026-08-29",
           "up": 2,
           "down": 4
+        },
+        {
+          "date": "2026-08-30",
+          "up": 0,
+          "down": 7
         }
       ],
       "lastError": "This operation was aborted"
@@ -181,10 +186,10 @@
     "web": {
       "consecutiveFailures": 0,
       "lastStatus": "up",
-      "lastCheckedAt": "2026-08-30T23:37:41.925Z",
+      "lastCheckedAt": "2026-08-31T01:35:41.305Z",
       "today": {
-        "date": "2026-08-30",
-        "up": 7,
+        "date": "2026-08-31",
+        "up": 1,
         "down": 0
       },
       "history": [
@@ -352,18 +357,23 @@
           "date": "2026-08-29",
           "up": 6,
           "down": 0
+        },
+        {
+          "date": "2026-08-30",
+          "up": 7,
+          "down": 0
         }
       ],
       "lastError": null
     },
     "synthetic": {
-      "consecutiveFailures": 809,
+      "consecutiveFailures": 810,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-08-30T23:37:49.042Z",
+      "lastCheckedAt": "2026-08-31T01:35:56.306Z",
       "today": {
-        "date": "2026-08-30",
+        "date": "2026-08-31",
         "up": 0,
-        "down": 7
+        "down": 1
       },
       "history": [
         {
@@ -530,9 +540,14 @@
           "date": "2026-08-29",
           "up": 0,
           "down": 6
+        },
+        {
+          "date": "2026-08-30",
+          "up": 0,
+          "down": 7
         }
       ],
-      "lastError": "POST https://quay-api.onrender.com/links -> HTTP 401 (expected 201)"
+      "lastError": "This operation was aborted"
     }
   }
 }
